@@ -1,0 +1,9 @@
+hr{
+    border: 0;
+    height: 1px;
+    width: 5em;
+    background-color: white;
+}
+.fundo-titulo{
+    background-color: rgb(107, 107, 107) !important;
+}
