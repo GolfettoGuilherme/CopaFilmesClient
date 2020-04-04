@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { FilmeService } from './filme/filme.service';
 
 @Component({
   selector: 'app-grid-filmes',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GridFilmesComponent implements OnInit {
 
-  constructor() { }
+  filmes: any;
 
-  ngOnInit(): void {
+  constructor(private filmeService: FilmeService) {}
+
+  ngOnInit() {
+    this.carregarFilmes();
   }
 
+  async carregarFilmes(){
+    this.filmes = await this.filmeService.buscarFilmes();
+    console.log(this.filmes);
+  }
+
+  
 }

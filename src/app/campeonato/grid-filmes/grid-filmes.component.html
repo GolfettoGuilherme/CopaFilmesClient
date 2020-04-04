@@ -1,47 +1,6 @@
+
 <ol class="list-unstyled row">
-    <li class="col-3">
-        <app-filme></app-filme>
+    <li *ngFor="let item of filmes" class="col-3">
+        <app-filme [filme]="item"></app-filme>
     </li>
-    <li class="col-3">
-        <app-filme></app-filme>
-    </li>
-    <li class="col-3">
-        <app-filme></app-filme>
-    </li>
-    <li class="col-3">
-        <app-filme></app-filme>
-    </li>
-    <li class="col-3">
-        <app-filme></app-filme>
-    </li>
-    <li class="col-3">
-        <app-filme></app-filme>
-    </li><li class="col-3">
-        <app-filme></app-filme>
-    </li>
-    <li class="col-3">
-        <app-filme></app-filme>
-    </li>
-    <li class="col-3">
-        <app-filme></app-filme>
-    </li><li class="col-3">
-        <app-filme></app-filme>
-    </li>
-    <li class="col-3">
-        <app-filme></app-filme>
-    </li>
-    <li class="col-3">
-        <app-filme></app-filme>
-    </li><li class="col-3">
-        <app-filme></app-filme>
-    </li>
-    <li class="col-3">
-        <app-filme></app-filme>
-    </li>
-    <li class="col-3">
-        <app-filme></app-filme>
-    </li>
-    <li class="col-3">
-        <app-filme></app-filme>
-    </li>
-</ol>
+ </ol>

@@ -1,9 +1,17 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { FinalistaComponent } from './finalista/finalista.component';
+import { ResultadoComponent } from './resultado.component';
+import { TituloModule } from '../shared/titulo/titulo.module';
 
 @NgModule({
-    imports : [CommonModule]
+    declarations: [
+        FinalistaComponent,
+        ResultadoComponent
+    ],
+    exports: [
+        ResultadoComponent
+    ],
+    imports: [TituloModule]
 })
 export class ResultadoModule{
-
 }

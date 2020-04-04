@@ -1,12 +1,12 @@
 <div class="alert alert-secondary">
 
     <div class="form-check">
-        <input class="form-check-input checkbox" type="checkbox" value="" id="defaultCheck1">
-        <label class="form-check-label font-weight-bold" for="defaultCheck1">
-          Vingadores Genéricos
+        <input class="form-check-input checkbox" type="checkbox" (change)="add()" value="{{filme.id}}" id="{{filme.id}}">
+        <label class="form-check-label font-weight-bold" for="{{filme.id}}">
+          {{filme.titulo}}
         </label>
         <br>
-        <label class="text-muted">2012</label>
+        <label class="text-muted">{{filme.ano}}</label>
     </div>
     
 </div>
