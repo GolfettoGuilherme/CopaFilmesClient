@@ -24,8 +24,8 @@
                 <li *ngFor="let item of filmes" class="col-3">
                     <app-filme [filme]="item" (addId)="guardarSelecionados($event)" (removerId)="removerSelecionados($event)"></app-filme>
                 </li>
-             </ol>
-             
+            </ol>
+
         </div>
     </div>
 </div>
