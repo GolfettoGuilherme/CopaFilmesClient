@@ -10,7 +10,7 @@ Na pasta do projeto, roda um  `ng serve --open` no terminal ou cmd pra iniciar o
 
 ### Importante tu saber
 
-Esse projeto faz uso da API Copa Filmes API ques está [Aqui](https://github.com/GolfettoGuilherme/CopaFilmes) 
+Esse projeto faz uso da API Copa Filmes API que está [Aqui](https://github.com/GolfettoGuilherme/CopaFilmes) 
 
 Então vamos precisar dos dois projetos rodando juntos para ficar bonito.
 
