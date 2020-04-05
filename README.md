@@ -2,11 +2,23 @@
 
 Esse Projeto top da balada foi gerado usando o tal do [Angular CLI](https://cli.angular.io/) versão 9.1.0.
 
-Certifique-se de ter o mesmo instalado na maquina para executar. Caso não tenha, instale pelo npm usando o comando `npm install -g @angular/cli`.
+Certifique-se de ter o mesmo instalado na maquina para executar. Caso não tenha, instale pelo npm usando o comando:
+
+`npm install -g @angular/cli`.
 
 ## Para rodar o projeto na tua maquina
 
-Na pasta do projeto, roda um  `ng serve --open` no terminal ou cmd pra iniciar o projeto na tua maquina. O navegador vai aparecer no endereco `http://localhost:4200/`. O App vai rodar automaticamente e qualquer alteração de codigo ja vai refletir na tela...louco né.
+Na pasta do projeto, vamos atualizar os pacotes npm para que tudo fique legal. Para isso, abra o terminal e executeo comand:
+
+`npm update`
+
+Vai demorar um pouquinho mas paciência padawan.
+
+Depois que terminar o update, vamos rodar um:
+
+`ng serve --open` 
+
+O navegador vai aparecer no endereco `http://localhost:4200/`. O App vai rodar automaticamente e qualquer alteração de codigo ja vai refletir na tela...louco né.
 
 ### Importante tu saber
 
