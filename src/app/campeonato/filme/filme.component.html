@@ -1,7 +1,7 @@
 <div class="alert alert-secondary">
 
     <div class="form-check">
-        <input class="form-check-input checkbox" type="checkbox" (change)="add()" value="{{filme.id}}" id="{{filme.id}}">
+        <input [(ngModel)]="checkboxValue" class="form-check-input checkbox" type="checkbox" (change)="add()" value="{{filme.id}}" id="{{filme.id}}">
         <label class="form-check-label font-weight-bold" for="{{filme.id}}">
           {{filme.titulo}}
         </label>

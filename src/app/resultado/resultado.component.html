@@ -5,15 +5,11 @@
         </div>
     </div>
 
-    <div class="row">
+    
+    <div class="row" *ngFor="let item of filmesVencedores; let i = index">
         <div class="col-12">
-            <app-finalista titulo="Vingadores Genéricos" posicao="1"></app-finalista>
+            <app-finalista titulo="{{item.titulo}}" posicao="{{i + 1}}"></app-finalista>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-12">
-            <app-finalista titulo="Filme Bosta" posicao="2"></app-finalista>
-        </div>
-    </div>
 </div>

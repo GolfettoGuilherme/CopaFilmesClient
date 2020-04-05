@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app.routing.module';
 import { AppComponent } from './app.component';
 import { CampeonatoModule } from './campeonato/campeonato.module';
 import { ResultadoModule } from './resultado/resultado.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ResultadoModule } from './resultado/resultado.module';
     CampeonatoModule,
     ResultadoModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

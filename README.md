@@ -4,7 +4,7 @@ Esse Projeto top da balada foi gerado usando o tal do [Angular CLI](https://gith
 
 ## Para rodar o projeto na tua maquina
 
-Na pasta do projeto, roda um  `ng serve --open` pra subir um servidor na tua maquina. O navegador vai aparecer no endereco `http://localhost:4200/`. O App vai rodar automaticamente e qualquer alteração de codigo ja vai refletir na tela...louco né jão. Então.
+Na pasta do projeto, roda um  `ng serve --open` pra subir um servidor na tua maquina. O navegador vai aparecer no endereco `http://localhost:4200/`. O App vai rodar automaticamente e qualquer alteração de codigo ja vai refletir na tela...louco né. Então.
 
 ### Importante tu saber
 
