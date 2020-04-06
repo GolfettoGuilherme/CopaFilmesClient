@@ -18,6 +18,10 @@ Depois que terminar o update, vamos rodar um:
 
 `ng serve --open` 
 
+ou
+
+`npm start`
+
 O navegador vai aparecer no endereco `http://localhost:4200/`. O App vai rodar automaticamente e qualquer alteração de codigo ja vai refletir na tela...louco né.
 
 ### Importante tu saber
@@ -29,7 +33,7 @@ Então vamos precisar dos dois projetos rodando juntos para ficar bonito.
 
 ## Sobre a API
 
-Ela também precisa estar rodando viu ? no projeto foi configurado para ler a url `http://localhost:44317/` como essa API, se ela estiver rodando em outra porta, vai dar m...digo, problema. Na pagina do repositório dela temos mais informações
+Ela também precisa estar rodando viu ? no projeto foi configurado para ler a url `https://localhost:44317/` como essa API, se ela estiver rodando em outra porta, vai dar m...digo, problema. Na pagina do repositório dela temos mais informações
 
 
 ## Considerações Finais
