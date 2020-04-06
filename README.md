@@ -29,7 +29,7 @@ Então vamos precisar dos dois projetos rodando juntos para ficar bonito.
 
 ## Sobre a API
 
-Ela também precisa estar rodando viu ? no projeto foi configurado para ler a url `http://localhost:5001/` como essa API, se ela estiver rodando em outra porta, vai dar m...digo, problema. Na pagina do repositório dela temos mais informações
+Ela também precisa estar rodando viu ? no projeto foi configurado para ler a url `http://localhost:44317/` como essa API, se ela estiver rodando em outra porta, vai dar m...digo, problema. Na pagina do repositório dela temos mais informações
 
 
 ## Considerações Finais
