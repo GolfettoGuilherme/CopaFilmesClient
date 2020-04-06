@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Filme } from '../campeonato/filme/filme';
 
 
-const URL = 'https://localhost:5001/api/Home/ExecutarProcessamento';
+const URL = 'https://localhost:44317/api/Home/ExecutarProcessamento';
 
 @Injectable({
     providedIn: 'root'

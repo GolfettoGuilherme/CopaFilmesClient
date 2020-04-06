@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 
-const URL = 'https://localhost:5001/api/Home/BuscarFilmes';
+const URL = 'https://localhost:44317/api/Home/BuscarFilmes';
 
 @Injectable({providedIn: 'root'})
 export class FilmeService{
