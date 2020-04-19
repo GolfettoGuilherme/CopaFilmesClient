@@ -1,3 +1,8 @@
 .checkbox {
-    margin-top: 1em;
-  }
+  margin-top: 1em;
+}
+
+.bloco-filme{
+  display: block;
+  height: 85%;
+}
